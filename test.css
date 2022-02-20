@@ -168,3 +168,48 @@ li a {
 .patate > li:hover > a {
   color: white;
 }
+
+.patate2 {
+  margin-top: var(--hauteur-menu);
+  width: 100%;
+  text-align: left;
+  overflow: hidden;
+  max-height: 0;
+  border-radius: 2px;
+  background-color: white;
+}
+
+.sous-menu:hover > .patate2 {
+  animation: apparitionPatate2 1s forwards;
+}
+
+@keyframes apparitionPatate2 {
+  0% {
+    box-shadow: 0px 3px 3px 1px rgba(0,0,0,0);
+    border-top: 3px solid #2169EC;
+  }
+  30% {
+    box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.3);
+  }
+  100% {
+    max-height: 50em;
+    border-top: 3px solid #2169EC;
+    box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.3);
+  }
+}
+
+.patate2 > li:hover {
+  background-color: rgba(33, 105, 236, 0.3);
+}
+
+.patate2 > li > a {
+  align-items: center;
+  display: flex;
+  height: 50px;
+  padding-left: 20px;
+  width: 100%;
+}
+
+.patate2 > li:hover > a {
+  color: white;
+}
