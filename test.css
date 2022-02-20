@@ -1,6 +1,6 @@
-.menu {
+
 :root{
---hauteur-menu: 60px;
+  --hauteur-menu: 60px;
 }
 
 * {
@@ -220,5 +220,4 @@ li a {
 
 .abricot > li:hover > a {
   color: white;
-}
 }
