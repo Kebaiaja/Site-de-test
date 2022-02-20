@@ -1,6 +1,6 @@
-.menu{
-  :root{
-  --hauteur-menu: 60px;
+.menu {
+:root{
+--hauteur-menu: 60px;
 }
 
 * {
