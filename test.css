@@ -82,7 +82,6 @@ li a {
   background-color: white;
 }
 
-
 .menu-deroulant:hover > .sous-menu {
   animation: apparitionSousMenu 1s forwards;
 }
@@ -114,38 +113,6 @@ li a {
   width: 100%;
 }
 
-.sous-sous-menu {
-  margin-top: var(--hauteur-menu);
-  width: 100%;
-  text-align: left;
-  background-color: white;
-  border-radius: 2px;
-  overflow: hidden;
-  max-height: 0;
-}
-
-.sous-sous-menu > li > a {
-  height: 50px;
-  padding-left: 20px;
-  width: 100%;
-  align-items: center;
-  display: flex;
-}
-nav > ul > li:hover > a{
-  color: #2169EC;
-}
-
-.sous-sous-menu > li:hover {
-  background-color: rgba(33, 105, 236, 0.3);
-}
-
-.sous-sous-menu > li:hover > a {
+.sous-menu > li:hover > a {
   color: white;
-}
-
-.sous-menu > a:after{
-  content: '❯';
-  font-size: 15px;
-  margin-left: 7px;
-  display: inline-block;
 }
