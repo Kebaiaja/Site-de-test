@@ -169,6 +169,13 @@ li a {
   color: white;
 }
 
+.sous-menu > a:after{
+  content: '❯';
+  font-size: 15px;
+  margin-left: 7px;
+  display: inline-block;
+}
+
 .abricot {
   margin-top: var(--hauteur-menu);
   width: 100%;
