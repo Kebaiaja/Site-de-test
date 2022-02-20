@@ -142,3 +142,10 @@ nav > ul > li:hover > a{
 .sous-sous-menu > li:hover > a {
   color: white;
 }
+
+.sous-menu > a:after{
+  content: '❯';
+  font-size: 15px;
+  margin-left: 7px;
+  display: inline-block;
+}
