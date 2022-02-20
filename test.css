@@ -169,7 +169,7 @@ li a {
   color: white;
 }
 
-.patate2 {
+.abricot {
   margin-top: var(--hauteur-menu);
   width: 100%;
   text-align: left;
@@ -179,11 +179,11 @@ li a {
   background-color: white;
 }
 
-.sous-menu:hover > .patate2 {
-  animation: apparitionPatate2 1s forwards;
+.sous-menu:hover > .abricot {
+  animation: apparitionAbricot 1s forwards;
 }
 
-@keyframes apparitionPatate2 {
+@keyframes apparitionAbricot {
   0% {
     box-shadow: 0px 3px 3px 1px rgba(0,0,0,0);
     border-top: 3px solid #2169EC;
@@ -198,11 +198,11 @@ li a {
   }
 }
 
-.patate2 > li:hover {
+.abricot > li:hover {
   background-color: rgba(33, 105, 236, 0.3);
 }
 
-.patate2 > li > a {
+.abricot > li > a {
   align-items: center;
   display: flex;
   height: 50px;
@@ -210,6 +210,6 @@ li a {
   width: 100%;
 }
 
-.patate2 > li:hover > a {
+.abricot > li:hover > a {
   color: white;
 }
