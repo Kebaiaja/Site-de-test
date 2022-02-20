@@ -8,7 +8,7 @@
   padding: 0px;
   font-family: Montserrat, sans-serif;
 }
-
+.menu{
 nav {
   width: 100%;
   font-size: 18px;
@@ -220,4 +220,5 @@ li a {
 
 .abricot > li:hover > a {
   color: white;
+}
 }
