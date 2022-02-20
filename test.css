@@ -131,3 +131,14 @@ li a {
   align-items: center;
   display: flex;
 }
+nav > ul > li:hover > a{
+  color: #2169EC;
+}
+
+.sous-sous-menu > li:hover {
+  background-color: rgba(33, 105, 236, 0.3);
+}
+
+.sous-sous-menu > li:hover > a {
+  color: white;
+}
