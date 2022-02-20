@@ -124,22 +124,6 @@ li a {
   display: inline-block;
 }
 
-.sous-menu:hover > a:after{
-  animation: rotationFleche 0.2s linear forwards;
-}
-
-@keyframes rotationFleche {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(45deg);
-  }
-  100%{
-    transform: rotate(90deg);
-  }
-}
-
 .patate {
   margin-top: var(--hauteur-menu);
   width: 100%;
